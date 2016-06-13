@@ -1,0 +1,16 @@
+h3{
+	font-family: courier;
+	color: blue;
+	text-align: center;
+    }
+
+p{
+	font-family: verdana;
+	font-size: 12px;
+	color: #ADDFFF;
+	text-align: center;
+
+}
+body{
+    background-color: palevioletred;
+}
