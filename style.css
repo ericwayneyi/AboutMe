@@ -1,16 +1,51 @@
-h3{
-	font-family: courier;
-	color: blue;
-	text-align: center;
-    }
-
-p{
-	font-family: verdana;
-	font-size: 12px;
-	color: #ADDFFF;
-	text-align: center;
+body{
+    border-radius:50px;
+    font-family: 'Work Sans', sans-serif;
 
 }
-body{
-    background-color: palevioletred;
+
+header{
+    position:fixed;
+    width:100%;
+    z-index:100;
+}
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float:right;
+    }
+li{
+    display: inline; 
+    margin-right: 35px;
+    cursor:pointer;
+    }
+a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    position:relative;
+
+}
+.container{
+    text-align:center;
+    position:absolute;
+    left: 50%;
+    top:50%;
+    margin-left:-64px;
+    margin-top:-64px;
+}
+.container img{
+    width:40px;
+}
+
+#me{
+    background:url("img/hero.jpg");
+    background-size: cover;
+    border-radius:9px;
 }
